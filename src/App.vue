@@ -1,26 +1,58 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <MainHeader v-if="!mobile" :textList="['Welcome!', 'Hello Human!', 'What\'s Up!']"/>
+    <MobileHeader v-else :textList="['Hey!', 'Welcome!', 'Hello Human!', 'What\'s Up!']"/>
+    <MainWave startColor="#181a1bff" stopColor="#26292bff" :isFlipped="false"></MainWave>
+    
+    <HomePage text="Welcome to my website, take a look around!"/>
+    <MainWave startColor="#181a1bff" stopColor="#26292bff" :isFlipped="true"></MainWave>
+
+    <MainWave startColor="#181a1bff" stopColor="#26292bff" :isFlipped="false"></MainWave>
+    <MainFooter :textList="['Welcome!', 'Hello Human!', 'What\'s Up!']"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MobileHeader from './components/MobileHeader.vue'
+import MainHeader from './components/MainHeader.vue'
+import MainWave from './components/MainWave.vue'
+import MainFooter from './components/MainFooter.vue'
+import HomePage from './components/HomePage.vue'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+    name: 'App',
+    components: {
+        MainHeader,
+        MainWave,
+        MobileHeader,
+        MainFooter,
+        HomePage
+    },
+    data() {
+        return {
+            currentPage:"Home",
+            mobile:false
+        }
+    },
+    mounted () {
+        window.onresize = this.resize;
+        this.resize();
+        this.currentPage = localStorage.lastPageVisited ?? "Home";
+    },
+    watch: {
+        currentPage(newValue) {
+            localStorage.lastPageVisited = newValue;
+        }
+    },
+    methods: {
+        resize() {
+            this.mobile = (window.innerWidth <= 900);
+        }
+    },
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+    @import "./assets/main.scss";
+    body {
+        background-color: $primary;
+    }
 </style>
