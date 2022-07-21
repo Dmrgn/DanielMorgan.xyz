@@ -1,23 +1,23 @@
 <template>
-    <a :style="'--i:'+order+';'" href="#" @click="clicked">
+    <span :style="'--i:'+order+';'" @click="clicked">
         <div class="cube" :class="this.$root.currentPage == this.text ? 'clicked' : 'unclicked'">
             <div class="side--top"></div>
             <div class="sides">
                 <span class="side--long" style="--i:0;">
-                    <h2 class="has-text-black is-size-2 has-text-centered">
+                    <h2 class="has-text-white is-size-4 has-text-centered">
                         {{text}}
                     </h2>
                 </span>
                 <span class="side--short" style="--i:1;"></span>
                 <span class="side--long" style="--i:2;">
-                    <h2 class="has-text-black is-size-2 has-text-centered">
+                    <h2 class="has-text-white is-size-4 has-text-centered">
                         {{text}}
                     </h2>
                 </span>
                 <span class="side--short" style="--i:3;"></span>
             </div>
         </div>
-    </a>
+    </span>
 </template>
 
 <script>
@@ -48,7 +48,7 @@
     $width: 15vmin;
     $height: 7.5vmin;
 
-    a {
+    span {
         order: var(--i);
     }
     @mixin cube-base {

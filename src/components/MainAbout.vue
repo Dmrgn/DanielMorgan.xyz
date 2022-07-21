@@ -1,13 +1,13 @@
 <template>
-    <div class="has-text-white">
-        Hello
+    <div>
+        hello
     </div>
 </template>
 
 <script>
-export default {
-    name:"HomePage"
-}
+    export default {
+        name:"MainAbout"
+    }
 </script>
 
 <style lang="scss" scoped>

@@ -1,5 +1,5 @@
 <template>
-    <div class="is-flex is-flex-direction-column is-justify-content-space-evenly wrapper">
+    <div class="is-flex is-flex-direction-column is-justify-content-space-evenly has-background-black wrapper">
         <div class="is-flex is-justify-content-space-evenly is-align-items-center">
             <div>
                 <h1 class="has-text-white">
