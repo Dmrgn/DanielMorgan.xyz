@@ -1,24 +1,7 @@
-# main
+# www.danielmorgan.xyz
 
-## Project setup
-```
-npm install
-```
+The home of my portfolio website.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Stack
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- <a href="https://vuejs.org/" title="Vue.js"><img src="https://github.com/get-icon/geticon/raw/master/icons/vue.svg" alt="Vue.js" width="21px" height="21px"></a>
