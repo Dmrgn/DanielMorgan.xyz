@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 873 405" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 873 228" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <radialGradient gradientUnits="userSpaceOnUse" cx="262.46" cy="223.109" r="231.816" id="gradient-0">
-      <stop offset="0" style="stop-color: rgb(255, 198, 136);"/>
+      <stop offset="0" style="stop-color: rgb(202, 118, 28);"/>
       <stop offset="1" style="stop-color: rgb(202, 118, 28);"/>
     </radialGradient>
     <radialGradient gradientUnits="userSpaceOnUse" cx="656.054" cy="230.133" r="171.641" id="gradient-1">
-      <stop offset="0" style="stop-color: rgb(255, 169, 77);"/>
+      <stop offset="0" style="stop-color: rgb(202, 118, 28);"/>
       <stop offset="1" style="stop-color: rgb(202, 118, 28);"/>
     </radialGradient>
   </defs>
-  <g transform="matrix(1, 0, 0, 1, 2.397976, -27.576719)">
+  <g transform="matrix(1, 0, 0, 0.512299, 2.397976, -0.528314)" style="">
     <path style="stroke: rgba(173, 133, 133, 0); paint-order: fill; fill: url(#gradient-0);" d="M 484.335 97.938 L 453.607 59.076 L 407.515 98.841 L 363.23 59.979 L 323.464 97.938 L 293.64 62.691 L 219.531 99.745 L 176.15 55.461 L 140 99.745 L 94.811 74.44 L 55.949 101.553 L 88.485 130.473 L 30.644 206.39 L 80.351 220.85 L 44.2 280.499 L 85.774 309.419 L 70.41 345.57 L 146.326 326.591 L 133.673 389.855 L 204.167 340.147 L 230.376 390.758 L 270.142 344.666 L 313.523 388.951 L 347.866 350.993 L 393.055 385.336 L 426.494 351.896 L 473.49 383.528 L 494.277 354.608"/>
     <path style="stroke: rgba(173, 133, 133, 0); fill: url(#gradient-1);" d="M 820.335 103.306 L 797.583 63.929 L 763.456 104.223 L 730.666 64.845 L 701.223 103.306 L 679.141 67.59 L 624.269 105.135 L 592.149 60.267 L 565.383 105.135 L 531.924 79.497 L 503.15 106.968 L 527.24 136.272 L 484.413 213.194 L 521.217 227.842 L 494.451 288.283 L 525.233 317.583 L 513.857 354.215 L 570.067 334.985 L 560.698 399.083 L 612.893 348.72 L 632.299 400 L 661.742 353.299 L 693.862 398.167 L 719.291 359.71 L 752.749 394.505 L 777.508 360.622 L 812.305 392.672 L 827.696 363.372" transform="matrix(-1, 0, 0, -1, 1312.108978, 460.266998)"/>
   </g>

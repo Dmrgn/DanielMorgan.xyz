@@ -1,0 +1,86 @@
+[
+    {
+        "name":"fcpl",
+        "description":"fcpl is a function programming language that transpiles to JavaScript. Its syntax is heavily inspired by CoffeeScript and F#.",
+        "tags":[
+            "JavaScript",
+            "Nodejs"
+        ],
+        "githubLink": "https://github.com/dmrgn/fcpl"
+    },
+    {
+        "name":"Ant Colony Simulation",
+        "description":"Ant colony optimization is a probablistic technique for finding the optimal path through a graph. This simulation provides a visual representation of how the algorithm functions.",
+        "tags":[
+            "JavaScript",
+            "html5"
+        ],
+        "playLink": "https://antcolony.netlify.app",
+        "githubLink": "https://github.com/dmrgn/ants-simulation"
+    },
+    {
+        "name":"Rocket Raider",
+        "description":"Fly your space ship through a gauntlet of levels while dodging and weaving to avoid obstacles. Collect every space gem in every level to become the ultimate rocket raider.",
+        "tags":[
+            "Unity",
+            "WebGl"
+        ],
+        "playLink": "https://rocketraider.netlify.app"
+    },
+    {
+        "name":"Proto",
+        "description":"The Earth has finally collapsed after decades of terrible pollution and irreversible human impacts. It is your final hope that you guide Proto, courier of the last remaining plant, to saftey.",
+        "tags":[
+            "Unity",
+            "WebGl"
+        ],
+        "playLink": "https://protogame.netlify.app"
+    },
+    {
+        "name":"Baron Berkely's",
+        "description":"Baron Berkely's Best Bounty Hunting Hierarchy for Magical Creatures and Contaminant is recruiting new members. As a death eater, you look to silence the source of all magical life - The Mega Mushroom.",
+        "tags":[
+            "Processing",
+            "Java",
+            "glsl"
+        ],
+        "githubLink": "https://github.com/dmrgn/baron-berkelys"
+    },
+    {
+        "name":"Brain Parser",
+        "description":"Brain**** is a esoteric programming language whose source code only contains the characters '.,[]+-><'. Brain Parser builds onto Brain**** in order to make it easier to program with.",
+        "tags":[
+            "Java"
+        ],
+        "githubLink":"https://github.com/dmrgn/brain-parser"
+    },
+    {
+        "name":"Wordle Bot",
+        "description":"A python bot which is consistently able to solve Wordle problems in 4 guesses or less. Implemented with PyAutoGui, the bot with solve puzzles on the actual website.",
+        "tags":[
+            "Python",
+            "PyAutoGui"
+        ],
+        "githubLink":"https://github.com/dmrgn/python-wordle-bot"
+    },
+    {
+        "name":"Click Speed Tracker",
+        "description":"Having a high click speed in certain video games can provide a competitive advantage. Use this website to track your click speed and compare with your friends.",
+        "tags":[
+            "JavaScript",
+            "html5"
+        ],
+        "playLink": "https://dragtracker.netlify.app",
+        "githubLink":"https://github.com/dmrgn/drag-tracker"
+    },
+    {
+        "name":"Flappy Clone",
+        "description":"A clone of Flappy Bird built with p5.js.",
+        "tags":[
+            "JavaScript",
+            "html5",
+            "p5.js"
+        ],
+        "playLink":"https://flappyjump.netlify.app"
+    }
+]

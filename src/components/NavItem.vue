@@ -1,5 +1,5 @@
 <template>
-    <span :style="'--i:'+order+';'" @click="clicked">
+    <span :style="'--i:'+order+';'" class="is-clickable" @click="clicked">
         <div class="cube" :class="this.$root.currentPage == this.text ? 'clicked' : 'unclicked'">
             <div class="side--top"></div>
             <div class="sides">

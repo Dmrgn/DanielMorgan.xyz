@@ -1,18 +1,20 @@
 <template>
-    <MainAbout></MainAbout>
+    <div class="section">
+        <AboutSection></AboutSection>
+    </div>
     <SkillScroller></SkillScroller>
 </template>
 
 <script>
 
-import SkillScroller from '../SkillScroller.vue';
-import MainAbout from '../MainAbout.vue';
+import SkillScroller from '../homepage/SkillScroller.vue';
+import AboutSection from '../homepage/AboutSection.vue';
 
 export default {
     name:"HomePage",
     components: {
         SkillScroller,
-        MainAbout
+        AboutSection
     },
 }
 </script>

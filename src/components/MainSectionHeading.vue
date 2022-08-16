@@ -30,12 +30,12 @@
         transform: translateY(10vw) translateX(2vw) rotate(10deg);
     }
     .sign {
-        width: 40vmin;
+        width: #{"max(40vmin, 300px)"};
     }
     .text {
         position: absolute;
-        font-size: 2vmax;
+        font-size: #{"max(2vmax, 2rem)"};
         top: 33%;
-        left: 4vmax;
+        left: #{"max(4vmax, 3rem)"};
     }
 </style>

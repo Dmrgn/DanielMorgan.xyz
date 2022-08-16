@@ -3,10 +3,14 @@ $primary: rgb(84, 103, 169);
 $secondary: rgb(202,118,28);
 $black: rgb(24,26,27);
 
+$card-radius: 6px;
+
 // import bulma
 @import "~bulma/bulma";
 // import main font
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+// import comic font
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
 
 
 #app {
