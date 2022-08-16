@@ -16,12 +16,6 @@
                 <a @click="this.navigateTo('Home')" class="navbar-item">
                     Home
                 </a>
-                <a @click="this.navigateTo('About')" class="navbar-item">
-                    About
-                </a>
-                <a @click="this.navigateTo('Games')" class="navbar-item">
-                    Games
-                </a>
                 <a @click="this.navigateTo('Portfolio')" class="navbar-item">
                     Portfolio
                 </a>
