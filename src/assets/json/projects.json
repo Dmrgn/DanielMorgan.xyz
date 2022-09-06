@@ -56,7 +56,7 @@
     },
     {
         "name":"Wordle Bot",
-        "description":"A python bot which is consistently able to solve Wordle problems in 4 guesses or less. Implemented with PyAutoGui, the bot with solve puzzles on the actual website.",
+        "description":"A python bot which is consistently able to solve Wordle problems in 4 guesses or less. Implemented with PyAutoGui, the bot will solve puzzles on the actual website.",
         "tags":[
             "Python",
             "PyAutoGui"
