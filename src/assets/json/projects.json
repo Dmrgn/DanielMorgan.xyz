@@ -9,6 +9,18 @@
         "githubLink": "https://github.com/dmrgn/fcpl"
     },
     {
+        "name":"RTP Documentation",
+        "description":"A documentation website for \"Ready to Program\", a Java IDE from 1998 which is still being used in the Ontario education system today.",
+        "tags":[
+            "Astro",
+            "Preact",
+            "MDX",
+            "tailwind"
+        ],
+        "playLink":"https://readytoprogram.xyz",
+        "githubLink":"https://github.com/dmrgn/readytoprogram.xyz"
+    },
+    {
         "name":"Ant Colony Simulation",
         "description":"Ant colony optimization is a probablistic technique for finding the optimal path through a graph. This simulation provides a visual representation of how the algorithm functions.",
         "tags":[
@@ -72,15 +84,5 @@
         ],
         "playLink": "https://dragtracker.netlify.app",
         "githubLink":"https://github.com/dmrgn/drag-tracker"
-    },
-    {
-        "name":"Flappy Clone",
-        "description":"A clone of Flappy Bird built with p5.js.",
-        "tags":[
-            "JavaScript",
-            "html5",
-            "p5.js"
-        ],
-        "playLink":"https://flappyjump.netlify.app"
     }
 ]
