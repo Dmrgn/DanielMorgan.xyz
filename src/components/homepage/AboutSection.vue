@@ -100,7 +100,7 @@
                                             <img class="is-rounded" :src="`https://cdn.discordapp.com/app-assets/${activity?.application_id}/${activity?.assets?.large_image}.png`" alt="Placeholder image">
                                         </figure>
                                     </div>
-                                    <div class="mr-2" v-if="activity.name == 'Spotify'">
+                                    <div class="mr-4" v-if="activity.name == 'Spotify'">
                                         <figure class="image is-48x48">
                                             <img class="album-image" :src="`https://i.scdn.co/image/${this.discordData.activities[0].assets.large_image.split(':')[1]}`" alt="Placeholder image">
                                         </figure>
@@ -144,7 +144,6 @@
                 const est = moment.utc().subtract(4,"hour");
                 this.currentTime = `${est.format('MMMM Do YYYY, h:mm:ss a')} EST`;
                 this.dateTimeString = `${est.year()}-${est.month()}-${est.day()}`;
-                console.log(this.discordData.activities[0].assets.large_image);
             }, 1000)
         },
     }
