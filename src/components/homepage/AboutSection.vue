@@ -88,13 +88,21 @@
                             <p class="has-text-white">{{`"${discordData?.activities?.[0]?.state}"`}}</p>
                             <div v-if="discordData?.activities?.length > 1" class="mb-4"></div>
                         </div>
+                        <div v-if="(discordData?.activities?.length == 1 && discordData?.activities?.[0]?.id != 'custom') || discordData?.activities?.length > 1">   
+                            <p class="has-text-weight-bold">Looks like I'm currently working with:</p>
+                        </div>
                         <div v-for="(activity, index) in discordData?.activities" :key="index">
+                            <div v-if="index > 0" class="pt-4"></div>
                             <div v-if="activity?.id != 'custom' && activity?.state">
-                                <p class="has-text-weight-bold">Looks like I'm currently working with:</p>
                                 <div class="media has-background-light-black">
-                                    <div v-if="activity?.assets?.large_image" class="media-left">
+                                    <div v-if="activity?.assets?.large_image && activity?.application_id" class="media-left">
                                         <figure class="image is-48x48">
                                             <img class="is-rounded" :src="`https://cdn.discordapp.com/app-assets/${activity?.application_id}/${activity?.assets?.large_image}.png`" alt="Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class="mr-2" v-if="activity.name == 'Spotify'">
+                                        <figure class="image is-48x48">
+                                            <img class="album-image" :src="`https://i.scdn.co/image/${this.discordData.activities[0].assets.large_image.split(':')[1]}`" alt="Placeholder image">
                                         </figure>
                                     </div>
                                     <div class="media-content">
@@ -136,7 +144,7 @@
                 const est = moment.utc().subtract(4,"hour");
                 this.currentTime = `${est.format('MMMM Do YYYY, h:mm:ss a')} EST`;
                 this.dateTimeString = `${est.year()}-${est.month()}-${est.day()}`;
-                console.log(this.discordData.discord_status);
+                console.log(this.discordData.activities[0].assets.large_image);
             }, 1000)
         },
     }
@@ -213,5 +221,8 @@
     }
     a {
         color: $primary;
+    }
+    .album-image {
+        border-radius: 6px;
     }
 </style>
