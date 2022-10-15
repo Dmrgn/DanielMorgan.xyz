@@ -140,7 +140,6 @@
             this.discordData = (await
                 (await fetch(`https://api.lanyard.rest/v1/users/${DISCORD_ID}`)).json()
             ).data;
-            console.log(this.discordData.activities);
             setInterval(() => {
                 const est = moment.utc().subtract(4,"hour");
                 this.currentTime = `${est.format('MMMM Do YYYY, h:mm:ss a')} EST`;
