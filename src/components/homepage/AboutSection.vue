@@ -102,7 +102,7 @@
                                     </div>
                                     <div class="mr-4" v-if="activity.name == 'Spotify'">
                                         <figure class="image is-48x48">
-                                            <img class="album-image" :src="`https://i.scdn.co/image/${this.discordData.activities[0].assets.large_image.split(':')[1]}`" alt="Placeholder image">
+                                            <img class="album-image" :src="`https://i.scdn.co/image/${this.discordData.activities[index].assets.large_image.split(':')[1]}`" alt="Placeholder image">
                                         </figure>
                                     </div>
                                     <div class="media-content">
@@ -140,6 +140,7 @@
             this.discordData = (await
                 (await fetch(`https://api.lanyard.rest/v1/users/${DISCORD_ID}`)).json()
             ).data;
+            console.log(this.discordData.activities);
             setInterval(() => {
                 const est = moment.utc().subtract(4,"hour");
                 this.currentTime = `${est.format('MMMM Do YYYY, h:mm:ss a')} EST`;
