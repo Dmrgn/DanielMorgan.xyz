@@ -21,13 +21,24 @@
         "githubLink":"https://github.com/dmrgn/readytoprogram.xyz"
     },
     {
+        "name":"Grinch Simulator",
+        "description":"The Grinch has no-clipped out of reality and into a desolate city! Help him steal presents and avoid being caught by Santa in this retro-horror inspired game.",
+        "tags":[
+            "Zig",
+            "Raylib",
+            "WebAssembly"
+        ],
+        "playLink": "https://grinchsimulator.danielmorgan.xyz",
+        "githubLink":"https://github.com/Dmrgn/MCPTJam2022"
+    },
+    {
         "name":"Ant Colony Simulation",
         "description":"Ant colony optimization is a probablistic technique for finding the optimal path through a graph. This simulation provides a visual representation of how the algorithm functions.",
         "tags":[
             "JavaScript",
             "html5"
         ],
-        "playLink": "https://antcolony.netlify.app",
+        "playLink": "https://ants.danielmorgan.xyz",
         "githubLink": "https://github.com/dmrgn/ants-simulation"
     },
     {
@@ -37,7 +48,7 @@
             "Unity",
             "WebGl"
         ],
-        "playLink": "https://rocketraider.netlify.app"
+        "playLink": "https://rocketraider.danielmorgan.xyz"
     },
     {
         "name":"Proto",
@@ -46,7 +57,7 @@
             "Unity",
             "WebGl"
         ],
-        "playLink": "https://protogame.netlify.app"
+        "playLink": "https://proto.danielmorgan.xyz"
     },
     {
         "name":"Baron Berkely's",
@@ -74,15 +85,5 @@
             "PyAutoGui"
         ],
         "githubLink":"https://github.com/dmrgn/python-wordle-bot"
-    },
-    {
-        "name":"Click Speed Tracker",
-        "description":"Having a high click speed in certain video games can provide a competitive advantage. Use this website to track your click speed and compare with your friends.",
-        "tags":[
-            "JavaScript",
-            "html5"
-        ],
-        "playLink": "https://dragtracker.netlify.app",
-        "githubLink":"https://github.com/dmrgn/drag-tracker"
     }
 ]
